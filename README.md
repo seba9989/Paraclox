@@ -1,1 +1,1 @@
-![Paraclox](./src/assets/UI/logos/full.png)
+# ![Paraclox](./src/assets/UI/logos/full.png)
