@@ -1,0 +1,22 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1683292389562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683292394963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-![](//192.168.8.173@8080/DavWWWRoot/ParacloxAssets/UI/logos/full.png)\r\n+\r\n"
+                }
+            ],
+            "date": 1683292389562,
+            "name": "Commit-0",
+            "content": "![](//192.168.8.173@8080/DavWWWRoot/ParacloxAssets/UI/logos/full.png)\r\n"
+        }
+    ]
+}
