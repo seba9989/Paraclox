@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Game/Battle/Battle.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1683219744418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683219749835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .main {\r\n \theight: 100%;\r\n-\t\r\n+\tdi\r\n }\r\n"
+                },
+                {
+                    "date": 1683219757492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .main {\r\n \theight: 100%;\r\n-\tdi\r\n+\tdisplay: flex;\r\n+\t\r\n }\r\n"
+                }
+            ],
+            "date": 1683219744418,
+            "name": "Commit-0",
+            "content": ".main {\r\n\theight: 100%;\r\n\t\r\n}\r\n"
+        }
+    ]
+}

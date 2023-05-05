@@ -1,0 +1,22 @@
+@import '../../mixin.scss';
+
+.main {
+	@include border('bottom', #121212);
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.5rem;
+
+	.logo {
+		height: 75%;
+	}
+
+	div {
+		a {
+			@include border('full', #212121);
+			padding: 0.5rem 1rem;
+			margin: 1rem;
+		}
+	}
+}

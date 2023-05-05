@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/index.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1683219474524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683219485280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,11 @@\n \tcolor: #fff;\n \ttext-decoration: none;\n }\n \n-#r{\n+#root {\n \tbackground: #212121;\n+\t\n }\n \n img {\n \theight: 100%;\n"
+                },
+                {
+                    "date": 1683219493550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n #root {\n \tbackground: #212121;\n-\t\n+\theight: 100v;\n }\n \n img {\n \theight: 100%;\n"
+                },
+                {
+                    "date": 1683219592208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,13 @@\n \tcolor: #fff;\n \ttext-decoration: none;\n }\n \n+main\n+\n #root {\n \tbackground: #212121;\n-\theight: 100v;\n+\theight: 100vh;\n }\n \n img {\n \theight: 100%;\n"
+                },
+                {
+                    "date": 1683219610877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n \tcolor: #fff;\n \ttext-decoration: none;\n }\n \n-main\n+main {\n+\theight: ;\n+}\n \n #root {\n \tbackground: #212121;\n \theight: 100vh;\n"
+                },
+                {
+                    "date": 1683219619889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \ttext-decoration: none;\n }\n \n main {\n-\theight: ;\n+\theight: calc();\n }\n \n #root {\n \tbackground: #212121;\n"
+                },
+                {
+                    "date": 1683219625377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \ttext-decoration: none;\n }\n \n main {\n-\theight: calc();\n+\theight: calc(100vh - );\n }\n \n #root {\n \tbackground: #212121;\n"
+                },
+                {
+                    "date": 1683219655168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \ttext-decoration: none;\n }\n \n main {\n-\theight: calc(100vh - );\n+\theight: calc(100vh - 5rem);\n }\n \n #root {\n \tbackground: #212121;\n"
+                },
+                {
+                    "date": 1683219661484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \tcolor: #fff;\n \ttext-decoration: none;\n }\n \n-main {\n+.main {\n \theight: calc(100vh - 5rem);\n }\n \n #root {\n"
+                },
+                {
+                    "date": 1683219703419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \ttext-decoration: none;\n }\n \n .main {\n-\theight: calc(100vh - 5rem);\n+\theight: calc(100vh - 5.5rem);\n }\n \n #root {\n \tbackground: #212121;\n"
+                }
+            ],
+            "date": 1683219474524,
+            "name": "Commit-0",
+            "content": "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800;900&family=Press+Start+2P&display=swap');\n\n* {\n\tmargin: 0;\n\tfont-family: 'Press Start 2P', sans-serif;\n\tcolor: #fff;\n\ttext-decoration: none;\n}\n\n#r{\n\tbackground: #212121;\n}\n\nimg {\n\theight: 100%;\n}\n\nbutton {\n\tbackground: transparent;\n\tborder: 0;\n}\n\n// :root {\n//   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;\n//   line-height: 1.5;\n//   font-weight: 400;\n\n//   color-scheme: light dark;\n//   color: rgba(255, 255, 255, 0.87);\n//   background-color: #242424;\n\n//   font-synthesis: none;\n//   text-rendering: optimizeLegibility;\n//   -webkit-font-smoothing: antialiased;\n//   -moz-osx-font-smoothing: grayscale;\n//   -webkit-text-size-adjust: 100%;\n// }\n\n// a {\n//   font-weight: 500;\n//   color: #646cff;\n//   text-decoration: inherit;\n// }\n// a:hover {\n//   color: #535bf2;\n// }\n\n// body {\n//   margin: 0;\n//   display: flex;\n//   place-items: center;\n//   min-width: 320px;\n//   min-height: 100vh;\n// }\n\n// h1 {\n//   font-size: 3.2em;\n//   line-height: 1.1;\n// }\n\n// button {\n//   border-radius: 8px;\n//   border: 1px solid transparent;\n//   padding: 0.6em 1.2em;\n//   font-size: 1em;\n//   font-weight: 500;\n//   font-family: inherit;\n//   background-color: #1a1a1a;\n//   cursor: pointer;\n//   transition: border-color 0.25s;\n// }\n// button:hover {\n//   border-color: #646cff;\n// }\n// button:focus,\n// button:focus-visible {\n//   outline: 4px auto -webkit-focus-ring-color;\n// }\n\n// @media (prefers-color-scheme: light) {\n//   :root {\n//     color: #213547;\n//     background-color: #ffffff;\n//   }\n//   a:hover {\n//     color: #747bff;\n//   }\n//   button {\n//     background-color: #f9f9f9;\n//   }\n// }\n"
+        }
+    ]
+}

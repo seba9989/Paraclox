@@ -1,0 +1,122 @@
+{
+    "sourceFile": "src/components/Game/Battle/Top/Top.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1683220547254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683220553358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+export default function \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220561410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function Top() {\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220571529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export default function Top() {\r\n+    return(\r\n+        \r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220579334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export default function Top() {\r\n+    return(\r\n+        <div className={}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220586338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,5 @@\n export default function Top() {\r\n     return(\r\n-        <div className={}></div>\r\n+        <div className={style}></div>\r\n     )\r\n-}\n-export default function Top() {\r\n-    return(\r\n-        \r\n-    )\r\n-}\n-export default function Top() {\r\n-    \r\n-}\n-export default function \n\\ No newline at end of file\n-export de\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220594159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.mai}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220604509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220609891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style fro\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220615483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683220641003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683222672800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,38 +1,9 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n     return(\r\n-        <div className={style.main}></div>\r\n+        <div className={style.main}>\r\n+            \r\n+        </div>\r\n     )\r\n-}\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}></div>\r\n-    )\r\n-}\n-import style fro\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}></div>\r\n-    )\r\n-}\n-import style\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}></div>\r\n-    )\r\n-}\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.mai}></div>\r\n-    )\r\n-}\n-export default function Top() {\r\n-    return(\r\n-        <div className={style}></div>\r\n-    )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683222679597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}>\r\n+            \r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683222684797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}>\r\n+            <Beta\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683222691346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+    return(\r\n+        <div className={style.main}>\r\n+            <BetaEnemy\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683222904820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            \r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222912090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            di\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222918188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            <div className=''></div>\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222926807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            <div className={\r\n+                \r\n+            }></div>\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222932050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            <div className={sty}></div>\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222940390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+            <div className={style.main}></div>\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222946573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,104 +2,10 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n \treturn (\r\n-\t\t<div className={style.main}>\r\n+\t\t<div className={style.fle}>\r\n             <div className={style.main}></div>\r\n \t\t\t<BetaEnemy />\r\n \t\t</div>\r\n \t)\r\n }\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-            <div className={sty}></div>\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-            <div className={\r\n-                \r\n-            }></div>\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-            <div className=''></div>\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-            di\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-            \r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}>\r\n-            <BetaEnemy\r\n-        </div>\r\n-    )\r\n-}\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}>\r\n-            <Beta\r\n-        </div>\r\n-    )\r\n-}\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}>\r\n-            \r\n-        </div>\r\n-    )\r\n-}\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-    return(\r\n-        <div className={style.main}>\r\n-            \r\n-        </div>\r\n-    )\r\n\\ No newline at end of file\n-}\n"
+                },
+                {
+                    "date": 1683222954313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.flex}>\r\n+            <div className={style.main}>\r\n+                \r\n+            </div>\r\n+\t\t\t<BetaEnemy />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683223015824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.positio}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<BetaEnemy />\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683223130439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,35 +2,11 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n \treturn (\r\n-\t\t<div className={style.positio}>\r\n+\t\t<div className={style.position}>\r\n \t\t\t<div className={style.main}>\r\n-\t\t\t\t<BetaEnemy />\r\n+\t\t\t\t{/* <BetaEnemy /> */}\r\n \t\t\t</div>\r\n \t\t</div>\r\n \t)\r\n }\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.flex}>\r\n-            <div className={style.main}>\r\n-                \r\n-            </div>\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.fle}>\r\n-            <div className={style.main}></div>\r\n-\t\t\t<BetaEnemy />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n"
+                },
+                {
+                    "date": 1683223166225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function Top() {\r\n \treturn (\r\n \t\t<div className={style.position}>\r\n \t\t\t<div className={style.main}>\r\n-\t\t\t\t{/* <BetaEnemy /> */}\r\n+\t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683223402542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n \treturn (\r\n-\t\t<div className={style.position}>\r\n+\t\t<div className={style. background}>\r\n \t\t\t<div className={style.main}>\r\n \t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n"
+                }
+            ],
+            "date": 1683220547254,
+            "name": "Commit-0",
+            "content": "export de"
+        }
+    ]
+}

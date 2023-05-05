@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/mixin.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1683221189869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683221202938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n @mixin border($border-type, $background) {\r\n \tbackground: $background;\r\n \tborder-color: $background;\r\n \t@if $border-type == full {\r\n-\t\tborder: -0.5rem solid;\r\n+\t\tborder: 0.5rem solid;\r\n \t} @else {\r\n \t\tborder-#{$border-type}: 0.5rem solid;\r\n \t}\r\n \r\n"
+                }
+            ],
+            "date": 1683221189869,
+            "name": "Commit-0",
+            "content": "@mixin border($border-type, $background) {\r\n\tbackground: $background;\r\n\tborder-color: $background;\r\n\t@if $border-type == full {\r\n\t\tborder: -0.5rem solid;\r\n\t} @else {\r\n\t\tborder-#{$border-type}: 0.5rem solid;\r\n\t}\r\n\r\n\tborder-image-source: url('http://192.168.8.173:8080/ParacloxAssets/UI/borders/default/dark.png');\r\n\tborder-image-slice: 10;\r\n\tbackground-clip: padding-box;\r\n}\r\n"
+        }
+    ]
+}

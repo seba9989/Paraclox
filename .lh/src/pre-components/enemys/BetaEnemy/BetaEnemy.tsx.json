@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/pre-components/enemys/BetaEnemy/BetaEnemy.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1683222280583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683222288071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './BetaEnemy.module.scss'\r\n+\r\n+export default function BetaEnemy() {\r\n+\treturn (\r\n+\t\t\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222294440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './BetaEnemy.module.scss'\r\n+\r\n+export default function BetaEnemy() {\r\n+\treturn (\r\n+\t\tdiv.\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683222308510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import style from './BetaEnemy.module.scss'\r\n \r\n export default function BetaEnemy() {\r\n \treturn (\r\n-\t\t<div className={}></div>\r\n+\t\t<div className={m}></div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683222315208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './BetaEnemy.module.scss'\r\n+\r\n+export default function BetaEnemy() {\r\n+\treturn (\r\n+\t\t<div className={stylemain}></div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683222280583,
+            "name": "Commit-0",
+            "content": "import style from './BetaEnemy.module.scss'\r\n\r\nexport default function BetaEnemy() {\r\n\treturn\r\n}\r\n"
+        }
+    ]
+}

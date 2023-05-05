@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/pre-components/Player/Player.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1683221535614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683221540796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import style\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221549057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import style from './'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221606858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Player.module.scss'\r\n+\r\n+e\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221615258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221624189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default fu\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221631758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221651515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221670859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,5 @@\n import style from './Player.module.scss'\r\n \r\n export default function Player(props) {\r\n-    \r\n-}\n-import style from './Player.module.scss'\r\n-\r\n-export default function Player(props) {\n-import style from './Player.module.scss'\r\n-\r\n-export default fu\n-import style from './Player.module.scss'\r\n-\r\n-export default function\n-import style from './Player.module.scss'\r\n-\r\n-e\n-import style from './'\n-import style\n-im\n\\ No newline at end of file\n+    return\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221696962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\r\n+  return (\r\n+    <div className={style.player}>\r\n+      <img src={props.image} alt={props.name} />\r\n+    </div>\r\n+  )re\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221703126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,5 @@\n import style from './Player.module.scss'\r\n \r\n export default function Player(props) {\r\n-  return (\r\n-    <div className={style.player}>\r\n-      <img src={props.image} alt={props.name} />\r\n-    </div>\r\n-  )re\r\n-}\n-import style from './Player.module.scss'\r\n-\r\n-export default function Player(props) {\r\n     return\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221709083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\r\n+    return (\r\n+        di\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221716068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\r\n+    return (\r\n+        <div className={main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683221722058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player(props) {\r\n+    return (\r\n+        <div className={style.main}></div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1683221535614,
+            "name": "Commit-0",
+            "content": "im"
+        }
+    ]
+}

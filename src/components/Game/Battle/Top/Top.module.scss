@@ -1,0 +1,13 @@
+.background {
+	height: 75%;
+	position: relative;
+	background-image: url('http://');
+	background-position: center 150%;
+	background-color: #212121;
+	background-repeat: repeat no-repeat;
+
+	.main {
+		position: absolute;
+		bottom: 2rem;
+	}
+}
