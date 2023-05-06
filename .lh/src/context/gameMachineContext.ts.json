@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/context/gameMachineContext.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1683392283846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683392290417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n import { createContext } from 'react'\r\n-import { EnemysContext } from '../types/interface'\r\n \r\n const EnemysContext = createContext<EnemysContext | null>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392302609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n import { createContext } from 'react'\r\n \r\n+\r\n+\r\n const EnemysContext = createContext<EnemysContext | null>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392410561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n import { createContext } from 'react'\r\n \r\n+const EnemysContext = createContext<vi>(null)\r\n \r\n-\r\n-const EnemysContext = createContext<EnemysContext | null>(null)\r\n-\r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392417822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n import { createContext } from 'react'\r\n \r\n-const EnemysContext = createContext<vi>(null)\r\n+const EnemysContext = createContext<void | null>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392426470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n import { createContext } from 'react'\r\n \r\n-const EnemysContext = createContext<void | null>(null)\r\n+const Ga = createContext<void | null>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392435110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import { createContext } from 'react'\r\n+\r\n+const GameMachineContext = createContext<void | null>(null)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683392759213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n import { createContext } from 'react'\r\n \r\n-const GameMachineContext = createContext<void | null>(null)\r\n+const GameMachineContext = createContext<any>(null)\r\n \r\n export default GameMachineContext\r\n"
+                }
+            ],
+            "date": 1683392283846,
+            "name": "Commit-0",
+            "content": "import { createContext } from 'react'\r\nimport { EnemysContext } from '../types/interface'\r\n\r\nconst EnemysContext = createContext<EnemysContext | null>(null)\r\n\r\nexport default EnemysContext\r\n"
+        }
+    ]
+}

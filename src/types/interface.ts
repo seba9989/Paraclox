@@ -1,4 +1,4 @@
-import { attackType, costType } from './type'
+import * as Type from './type'
 
 //Enemy
 export interface Enemy {
@@ -6,6 +6,35 @@ export interface Enemy {
 	name: string
 	attacks: [] | never[]
 	hp: number
+}
+export interface EnemysContext {
+	enemies: Enemy[]
+	onChange: () => void
+}
+
+//Player
+export interface Player {
+	name: string
+	hp: {
+		max: number
+		current: number
+	}
+	energy: {
+		max: number
+		current: number
+	}
+	// attacks: {
+	// 	name: string
+	// 	target: boolean
+	// 	appliedEffect: string
+	// }[]
+	// inventory: {
+	// 	name: string
+	// }[]
+}
+export interface PlayersContext {
+	player: Player
+	onChange: () => void
 }
 
 // //Multy use interface

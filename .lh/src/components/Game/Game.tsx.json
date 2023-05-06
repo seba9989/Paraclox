@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/Game/Game.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1683389499858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683389507903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\r\n+console\r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389520655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\r\n+const Game\r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389527676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\r\n+const GameMa\r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389534155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\r\n+const GameMachine = cr\r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389541419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+\r\n+const GameMachine = create\r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389549061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,48 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389785928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,50 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+\r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389792134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,50 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+cu\r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389797226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,50 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+const \r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389806118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,50 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+const GameState = \r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683389831930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { createMachine } from \"xstate\"\r\n \r\n-const GameState = {\r\n-    \r\n+const GameStates = {\r\n+\r\n }\r\n \r\n const GameMachine = createMachine({\r\n     id: \"Game Machine\",\r\n"
+                },
+                {
+                    "date": 1683389840746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,52 @@\n+import { createMachine } from \"xstate\"\r\n+\r\n+const states = {\r\n+\r\n+}\r\n+\r\n+const GameMachine = createMachine({\r\n+    id: \"Game Machine\",\r\n+    initial: \"characterSelect\",\r\n+    states: {\r\n+      characterSelect: {\r\n+        on: {\r\n+          SELECT_CHARACTER: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+      battle: {\r\n+        on: {\r\n+          PLAYER_DEAD: {\r\n+            target: \"deadScreen\",\r\n+          },\r\n+          PLAYER_WIN: {\r\n+            target: \"winScreen\",\r\n+          },\r\n+        },\r\n+      },\r\n+      deadScreen: {},\r\n+      winScreen: {\r\n+        on: {\r\n+          NEXT_BATTLE: {\r\n+            target: \"battle\",\r\n+          },\r\n+        },\r\n+      },\r\n+    },\r\n+    schema: {\r\n+      events: {} as\r\n+        | { type: \"SELECT_CHARACTER\" }\r\n+        | { type: \"PLAYER_DEAD\" }\r\n+        | { type: \"PLAYER_WIN\" }\r\n+        | { type: \"NEXT_BATTLE\" },\r\n+    },\r\n+    predictableActionArguments: true,\r\n+    preserveActionOrder: true,\r\n+  });\r\n+  \r\n+\r\n+export default function Game() {\r\n+\r\n+    return <></>\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1683389499858,
+            "name": "Commit-0",
+            "content": "export default function Game() {\r\n\r\n    return <></>\r\n}"
+        }
+    ]
+}

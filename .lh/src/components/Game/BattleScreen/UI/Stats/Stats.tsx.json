@@ -1,0 +1,94 @@
+{
+    "sourceFile": "src/components/Game/BattleScreen/UI/Stats/Stats.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1683393958160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683393964728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import \n\\ No newline at end of file\n+import style fro\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393970178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import style fro\n\\ No newline at end of file\n+import style from './Stats.module.scss'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393977734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export de\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393984087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393989564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393995459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className=\"\"></div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394003570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={sty}></div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394045132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        \r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394052806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        <div className=\"\"></div>\r\n+        <div className=\"\"></div>\r\n+        <div className=\"\"></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394058294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,40 +1,9 @@\n import style from './Stats.module.scss'\r\n \r\n export default function Stats() {\r\n     return <div className={style.main}>\r\n+        <div className={style.}></div>\r\n         <div className=\"\"></div>\r\n         <div className=\"\"></div>\r\n-        <div className=\"\"></div>\r\n     </div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return <div className={style.main}>\r\n-        \r\n-    </div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return <div className={sty}></div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return <div className=\"\"></div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return \r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    \r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export de\n\\ No newline at end of file\n-import style from './Stats.module.scss'\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394067157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        <div className={style.hp}></div>\r\n+        <div className=style></div>\r\n+        <div className=\"\"></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394075537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        <div className={style.hp}></div>\r\n+        <div className={style}></div>\r\n+        <div className=\"\"></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394084555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,26 +2,8 @@\n \r\n export default function Stats() {\r\n     return <div className={style.main}>\r\n         <div className={style.hp}></div>\r\n-        <div className={style}></div>\r\n-        <div className=\"\"></div>\r\n+        <div className={style.energy}></div>\r\n+        <div className=></div>\r\n     </div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return <div className={style.main}>\r\n-        <div className={style.hp}></div>\r\n-        <div className=style></div>\r\n-        <div className=\"\"></div>\r\n-    </div>\r\n-}\n-import style from './Stats.module.scss'\r\n-\r\n-export default function Stats() {\r\n-    return <div className={style.main}>\r\n-        <div className={style.}></div>\r\n-        <div className=\"\"></div>\r\n-        <div className=\"\"></div>\r\n-    </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394097743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n export default function Stats() {\r\n     return <div className={style.main}>\r\n         <div className={style.hp}></div>\r\n         <div className={style.energy}></div>\r\n-        <div className=></div>\r\n+        <div className={}></div>\r\n     </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394211982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        \r\n+        <div className={style.energy}></div>\r\n+        <div className={style.other}></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394218310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        <div className={}></div>\r\n+        <div className={style.energy}></div>\r\n+        <div className={style.other}></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394223608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+    return <div className={style.main}>\r\n+        <div className={style.hp}></div>\r\n+        <div className={style.energy}></div>\r\n+        <div className={style.other}></div>\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394230438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import style from './Stats.module.scss'\r\n \r\n export default function Stats() {\r\n     return <div className={style.main}>\r\n-        <div className={style.hpMain}></div>\r\n+        <div className={style.hpMain}>\r\n+        <div className={style.hp}></div>\r\n+        </div>\r\n         <div className={style.energy}></div>\r\n         <div className={style.other}></div>\r\n     </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394237415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import style from './Stats.module.scss'\r\n+\r\n+export default function Stats() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<div className={style.}>\r\n+\t\t\t\t<div className={style.hp}></div>\r\n+\t\t\t</div>\r\n+\t\t\t<div className={style.energy}></div>\r\n+\t\t\t<div className={style.other}></div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683393958160,
+            "name": "Commit-0",
+            "content": "import "
+        }
+    ]
+}

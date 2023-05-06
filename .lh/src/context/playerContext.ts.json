@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/context/playerContext.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1683385831395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683385838390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-cons\n\\ No newline at end of file\n+const Pla\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385844934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const Pla\n\\ No newline at end of file\n+const PlayerContex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385850006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const PlayerContex\n\\ No newline at end of file\n+const PlayerContext\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385856199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-const PlayerContext\n\\ No newline at end of file\n+import { createContext } from \"react\";\r\n+\r\n+const PlayerContext = createContext\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385938798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import { createContext } from \"react\";\r\n+\r\n+const PlayerContext = createContext<P()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385955046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import { createContext } from \"react\";\r\n+import { PlayersContext } from \"../types/interface\";\r\n+\r\n+const PlayerContext = createContext<PlayersContext |()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385960281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import { createContext } from \"react\";\r\n+import { PlayersContext } from \"../types/interface\";\r\n+\r\n+const PlayerContext = createContext<PlayersContext | null></PlayersContext>()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385968439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import { createContext } from \"react\";\r\n+import { PlayersContext } from \"../types/interface\";\r\n+\r\n+const PlayerContext = createContext<PlayersContext | null>()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385975143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,4 @@\n import { createContext } from \"react\";\r\n import { PlayersContext } from \"../types/interface\";\r\n \r\n-const PlayerContext = createContext<PlayersContext | null>()\n-import { createContext } from \"react\";\r\n-import { PlayersContext } from \"../types/interface\";\r\n-\r\n-const PlayerContext = createContext<PlayersContext | null></PlayersContext>()\n-import { createContext } from \"react\";\r\n-import { PlayersContext } from \"../types/interface\";\r\n-\r\n-const PlayerContext = createContext<PlayersContext |()\n-import { createContext } from \"react\";\r\n-\r\n-const PlayerContext = createContext<P()\n-import { createContext } from \"react\";\r\n-\r\n-const PlayerContext = createContext\n\\ No newline at end of file\n+const PlayerContext = createContext<PlayersContext | null>(null)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683385982301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n-import { createContext } from \"react\";\r\n-import { PlayersContext } from \"../types/interface\";\r\n+import { createContext } from 'react'\r\n+import { PlayersContext } from '../types/interface'\r\n\\ No newline at end of file\n \r\n-const PlayerContext = createContext<PlayersContext | null>(null)\n+const PlayerContext = createContext<PlayersContext | null>(null)\r\n+\r\n+export\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1683385831395,
+            "name": "Commit-0",
+            "content": "cons"
+        }
+    ]
+}

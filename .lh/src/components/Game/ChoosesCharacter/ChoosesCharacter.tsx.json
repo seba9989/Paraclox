@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/components/Game/ChoosesCharacter/ChoosesCharacter.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1683391449670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683391454823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+export default function C\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683391463267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function ChoosesCharacter() {\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683391468631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function ChoosesCharacter() {\r\n+    return\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391473808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function ChoosesCharacter() {\r\n+    return <div></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391480842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function ChoosesCharacter() {\r\n+    return <div className={style}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391486988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+export default function ChoosesCharacter() {\r\n+    return <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391493691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import de\r\n+\r\n+export default function ChoosesCharacter() {\r\n+    return <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391522482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import \r\n+\r\n+export default function ChoosesCharacter() {\r\n+    return <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391575051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style \r\n+\r\n+export default function ChoosesCharacter() {\r\n+    return <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683391580371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import style from \r\n+import style from './ChoosesCharacter.module.scss'\r\n \r\n export default function ChoosesCharacter() {\r\n     return <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683391679982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './ChoosesCharacter.module.scss'\r\n+\r\n+export default function ChoosesCharacter() {\r\n+\treturn <div className={style.main}>\r\n+        \r\n+    </div>\r\n+}\r\n"
+                }
+            ],
+            "date": 1683391449670,
+            "name": "Commit-0",
+            "content": "export de"
+        }
+    ]
+}

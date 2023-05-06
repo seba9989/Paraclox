@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/context/enemysContext.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1683385033735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683385042241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import { createContext } from 'react'\r\n import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<>()\r\n+const EnemysContext = createContext<Enemy>(E)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385050374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Enemy>[](EnemyList)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385055681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<A(EnemyList)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385061835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array>(EnemyList)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385067453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,7 @@\n import { createContext } from 'react'\r\n import { EnemyList } from '../FakeDB/Tests.json'\r\n import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<Array>(EnemyList)\r\n+const EnemysContext = createContext<Array<>(EnemyList)\r\n \r\n export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<A(EnemyList)\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Enemy>[](EnemyList)\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Enemy>(E)\r\n-\r\n-export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385096669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>>(EnemyList)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385117808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>>()\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385135097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>>()\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385193926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,7 @@\n import { createContext } from 'react'\r\n import { EnemyList } from '../FakeDB/Tests.json'\r\n import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<Array<Enemy>>()\r\n+const EnemysContext = createContext<Array<Enemy>><()\r\n \r\n export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<Enemy>>()\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<Enemy>>(EnemyList)\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<>(EnemyList)\r\n-\r\n-export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385198945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>><null></null>()\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385232863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>>|<null>()\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385239930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import { createContext } from 'react'\r\n+import { EnemyList } from '../FakeDB/Tests.json'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<Array<Enemy>><null>()\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385269209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,7 @@\n import { createContext } from 'react'\r\n import { EnemyList } from '../FakeDB/Tests.json'\r\n import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<Array<Enemy>><null>()\r\n+const EnemysContext = createContext<Array<Enemy> | >()\r\n \r\n export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<Enemy>>|<null>()\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<Enemy>><null></null>()\r\n-\r\n-export default EnemysContext\r\n-import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n-import { Enemy } from '../types/interface'\r\n-\r\n-const EnemysContext = createContext<Array<Enemy>><()\r\n-\r\n-export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385287984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { createContext } from 'react'\r\n import { EnemyList } from '../FakeDB/Tests.json'\r\n import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<Array<Enemy> | >()\r\n+const EnemysContext = createContext<Array<Enemy> | null>(n)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385315381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { createContext } from 'react'\r\n-import { EnemyList } from '../FakeDB/Tests.json'\r\n+\r\n import { Enemy } from '../types/interface'\r\n \r\n-const EnemysContext = createContext<Array<Enemy> | null>(n)\r\n+const EnemysContext = createContext<Array<Enemy> | null>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385634889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import { createContext } from 'react'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext(null)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385642260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import { createContext } from 'react'\r\n+import { Enemy } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<(null)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385650547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import { createContext } from 'react'\r\n+import { Enemy, EnemysContext } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<EnemysContext>(null)\r\n+\r\n+export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385656043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { createContext } from 'react'\r\n-import { Enemy, EnemysContext } from '../types/interface'\r\n+import {  EnemysContext } from '../types/interface'\r\n \r\n const EnemysContext = createContext<EnemysContext>(null)\r\n \r\n export default EnemysContext\r\n"
+                },
+                {
+                    "date": 1683385665089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import { createContext } from 'react'\r\n+import { EnemysContext } from '../types/interface'\r\n+\r\n+const EnemysContext = createContext<EnemysContext | null>(null)\r\n+\r\n+export default EnemysContext\r\n"
+                }
+            ],
+            "date": 1683385033735,
+            "name": "Commit-0",
+            "content": "import { createContext } from 'react'\r\nimport { EnemyList } from '../FakeDB/Tests.json'\r\n\r\nconst EnemysContext = createContext<>()\r\n\r\nexport default EnemysContext\r\n"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/Game/BattleScreen/BattleScreen.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1683392041874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683392081173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import EnemyContainer from './EnemyContainer/EnemyContainer'\r\n \r\n import { EnemyList } from '../../../FakeDB/Tests.json'\r\n \r\n-export default function Battle() {\r\n+export default function BattleS() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<div className={style.top}>\r\n \t\t\t\t<EnemyContainer enemyList={EnemyList} />\r\n"
+                },
+                {
+                    "date": 1683393684532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import style from './BattleScreen.module.scss'\r\n+import EnemyContainer from './EnemyContainer/EnemyContainer'\r\n+\r\n+import { EnemyList } from '../../../FakeDB/Tests.json'\r\n+\r\n+export default function BattleScreen() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<div className={style.top}>\r\n+\t\t\t\t\r\n+\t\t\t\t<EnemyContainer enemyList={EnemyList} />\r\n+\t\t\t</div>\r\n+\t\t\t<div className={style.bottom}></div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683393691252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n export default function BattleScreen() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<div className={style.top}>\r\n-\t\t\t\t<Player\r\n+\t\t\t\t<Player />\r\n \t\t\t\t<EnemyContainer enemyList={EnemyList} />\r\n \t\t\t</div>\r\n \t\t\t<div className={style.bottom}></div>\r\n \t\t</div>\r\n"
+                },
+                {
+                    "date": 1683394484886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import style from './BattleScreen.module.scss'\r\n+import EnemyContainer from './EnemyContainer/EnemyContainer'\r\n+\r\n+import { EnemyList } from '../../../FakeDB/Tests.json'\r\n+import Player from './Player/Player'\r\n+\r\n+export default function BattleScreen() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<div className={style.top}>\r\n+\t\t\t\t<Player />\r\n+\t\t\t\t<EnemyContainer enemyList={EnemyList} />\r\n+\t\t\t</div>\r\n+\t\t\t<div className={style.bottom}>\r\n+\t\t\t\t\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683392041874,
+            "name": "Commit-0",
+            "content": "import style from './BattleScreen.module.scss'\r\nimport EnemyContainer from './EnemyContainer/EnemyContainer'\r\n\r\nimport { EnemyList } from '../../../FakeDB/Tests.json'\r\n\r\nexport default function Battle() {\r\n\treturn (\r\n\t\t<div className={style.main}>\r\n\t\t\t<div className={style.top}>\r\n\t\t\t\t<EnemyContainer enemyList={EnemyList} />\r\n\t\t\t</div>\r\n\t\t\t<div className={style.bottom}></div>\r\n\t\t</div>\r\n\t)\r\n}\r\n"
+        }
+    ]
+}

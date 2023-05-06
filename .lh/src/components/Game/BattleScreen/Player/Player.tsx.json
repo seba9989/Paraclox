@@ -1,0 +1,74 @@
+{
+    "sourceFile": "src/components/Game/BattleScreen/Player/Player.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1683393496858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683393502072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-imp\n\\ No newline at end of file\n+import \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393508297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import style from \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393519895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393525839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default fl\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393532737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Palyer() {\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393540871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Palyer() {\r\n+    return d\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393554173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Palyer() {\r\n+    return <div className={style.}></div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393560288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Palyer() {\r\n+    return <div className={style.main}>\r\n+        <img src=\"\" alt=\"\" />\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393612660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,7 @@\n import style from './Palyer.module.scss'\r\n \r\n export default function Palyer() {\r\n     return <div className={style.main}>\r\n-        <img src=\"\" alt=\"\" />\r\n+        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true\" alt=\"\" />\r\n     </div>\r\n-}\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return <div className={style.}></div>\r\n-}\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return d\r\n-}\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\n-import style from './Palyer.module.scss'\r\n-\r\n-export default fl\n-import style from './Palyer.module.scss'\r\n-\r\n-export \n-import style from \n\\ No newline at end of file\n-import \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393618423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import style from './Palyer.module.scss'\r\n \r\n export default function Palyer() {\r\n     return <div className={style.main}>\r\n-        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true\" alt=\"\" />\r\n+        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/idle.gif?raw=true\" alt=\"\" />\r\n     </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393627555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Palyer() {\r\n+    return <div className={style.main}>\r\n+        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true\" alt=\"\" />\r\n+    </div>\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683393646947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Palyer.module.scss'\r\n+\r\n+export default function Player() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683393652426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683393659750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,27 +6,4 @@\n \t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Player() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return <div className={style.main}>\r\n-        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true\" alt=\"\" />\r\n-    </div>\r\n-}\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return <div className={style.main}>\r\n-        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/idle.gif?raw=true\" alt=\"\" />\r\n-    </div>\r\n-}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1683393496858,
+            "name": "Commit-0",
+            "content": "imp"
+        }
+    ]
+}

@@ -5,6 +5,7 @@ import App from './App.tsx'
 import './index.scss'
 
 import Battle from './components/Game/Battle/Battle.tsx'
+import Game from './components/Game/Game.tsx'
 
 const router = createBrowserRouter([
 	{
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
 		children: [
 			{
 				path: 'game',
-				element: <Battle />,
+				element: <Game />,
 			},
 		],
 	},

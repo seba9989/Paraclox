@@ -1,0 +1,98 @@
+{
+    "sourceFile": "src/components/Game/BattleScreen/UI/Stats/Stats.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1683394290913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683394296937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .main {\r\n-    \r\n+    display: grid;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394304702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .main {\r\n     display: grid;\r\n+    g\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394311942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .main {\r\n     display: grid;\r\n-    g\r\n+    grid-template-columns: 50% 50%;\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394317524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n-    \r\n+    grid-row: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394326698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n-    grid-row: ;\r\n+    grid-template-rows: 50% 50%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394335603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n     grid-template-rows: 50% 50%;\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394341693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n     grid-template-rows: 50% 50%;\r\n-    \r\n+    .border\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394352336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,10 @@\n+\r\n+\r\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n     grid-template-rows: 50% 50%;\r\n-    .border\r\n+    .border {\r\n+\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683394357446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+@import \r\n \r\n-\r\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n     grid-template-rows: 50% 50%;\r\n"
+                },
+                {
+                    "date": 1683394363083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import \r\n+@import 'src/'\r\n \r\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n"
+                },
+                {
+                    "date": 1683394368171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import 'src/'\r\n+@import 'src/mixin'\r\n \r\n .main {\r\n     display: grid;\r\n     grid-template-columns: 50% 50%;\r\n"
+                },
+                {
+                    "date": 1683394377094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-@import 'src/mixin'\r\n+@import 'src/mixin.scss';\r\n \r\n .main {\r\n-    display: grid;\r\n-    grid-template-columns: 50% 50%;\r\n-    grid-template-rows: 50% 50%;\r\n-    .border {\r\n-\r\n-    }\r\n\\ No newline at end of file\n-}\n+\tdisplay: grid;\r\n+\tgrid-template-columns: 50% 50%;\r\n+\tgrid-template-rows: 50% 50%;\r\n+\t.border {\r\n+        \r\n+\t}\r\n+}\r\n"
+                },
+                {
+                    "date": 1683394386127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n-        \r\n+        @include\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683394391237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n-        @include\r\n+        @include bo\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683394398149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n-        @include bo\r\n+        @include border('full')\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683394411674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n-        @include border('full')\r\n+        @include border('full', )\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683394421567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n-        @include border('full', )\r\n+\t\t@include border('full', transparent);\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683394466138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n @import 'src/mixin.scss';\r\n \r\n .main {\r\n+    gr\r\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n"
+                },
+                {
+                    "date": 1683394471492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import 'src/mixin.scss';\r\n \r\n .main {\r\n-    grid-column: ;\r\n+    grid-column: 2;\r\n \tdisplay: grid;\r\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n"
+                },
+                {
+                    "date": 1683394523018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n \tgrid-template-columns: 50% 50%;\r\n \tgrid-template-rows: 50% 50%;\r\n \t.border {\r\n \t\t@include border('full', transparent);\r\n-        gr\r\n+        grid-column: 1;\r\n \t}\r\n }\r\n"
+                }
+            ],
+            "date": 1683394290913,
+            "name": "Commit-0",
+            "content": ".main {\r\n    \r\n}"
+        }
+    ]
+}
