@@ -1,19 +1,19 @@
 {
 	"EnemyList": [
 		{
-            "id": 0,
+			"id": 0,
 			"name": "BetaEnemy",
 			"attacks": [],
 			"hp": 200
 		},
 		{
-            "id": 1,
+			"id": 1,
 			"name": "BetaEnemy",
 			"attacks": [],
 			"hp": 200
 		},
 		{
-            "id": 2,
+			"id": 2,
 			"name": "BetaEnemy",
 			"attacks": [],
 			"hp": 200

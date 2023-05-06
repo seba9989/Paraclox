@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/components/Game/Battle/EnemyContainer/Enemy/Enemy.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1683379864146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683379869311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-main\n\\ No newline at end of file\n+.main {\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683379960946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .main {\r\n-    \r\n+    height: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683379985242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .main {\r\n-    height: ;\r\n-}\n\\ No newline at end of file\n+\theight: 50%;\r\n+    w\r\n+}\r\n"
+                },
+                {
+                    "date": 1683380002868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .main {\r\n \theight: 50%;\r\n-    w\r\n+\twidth: 10rem;\r\n+    display: ;\r\n }\r\n"
+                },
+                {
+                    "date": 1683380008355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .main {\r\n \theight: 50%;\r\n \twidth: 10rem;\r\n-    display: ;\r\n+    display: flex;\r\n+    justify-content: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1683380018904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n \theight: 50%;\r\n \twidth: 10rem;\r\n     display: flex;\r\n     justify-content: center;\r\n+    s\r\n }\r\n"
+                },
+                {
+                    "date": 1683380025030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \theight: 50%;\r\n \twidth: 10rem;\r\n     display: flex;\r\n     justify-content: center;\r\n-    scale: ;\r\n+    scale: -1 1;\r\n }\r\n"
+                },
+                {
+                    "date": 1683380173006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \tdisplay: flex;\r\n \tjustify-content: center;\r\n \tscale: -1 1;\r\n     position: absolute;\r\n-    \r\n+    top: 0\r\n }\r\n"
+                }
+            ],
+            "date": 1683379864146,
+            "name": "Commit-0",
+            "content": "main"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+// .main {
+// 	width: 10rem;
+// 	display: flex;
+// 	justify-content: center;
+// 	img {
+//         scale: -1 1;
+//     }
+// }
+@import 'src/mixin';
+
+.main {
+	width: 15rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.hpMain {
+		@include border('full', #121212);
+		color: #bbb;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 100%;
+
+		div {
+			grid-column: 1;
+			grid-row: 1;
+			text-align: center;
+			padding: 0.25rem 1.25rem;
+		}
+
+		.hp {
+			background-color: #990000;
+			height: 100%;
+			padding: 0;
+		}
+	}
+
+	img {
+		scale: -1 1;
+		margin-right: -2rem;
+	}
+}

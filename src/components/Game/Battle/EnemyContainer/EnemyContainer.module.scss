@@ -1,4 +1,9 @@
 .main {
 	grid-column: 2;
-	background: #121212;
+	display: flex;
+	flex-direction: row-reverse;
+	height: max-content;
+	position: absolute;
+	bottom: 1rem;
+	right: 0;
 }
