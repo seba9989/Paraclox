@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1683220547254,
@@ -112,6 +112,38 @@
                 {
                     "date": 1683223402542,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n \treturn (\r\n-\t\t<div className={style.position}>\r\n+\t\t<div className={style. background}>\r\n \t\t\t<div className={style.main}>\r\n \t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n"
+                },
+                {
+                    "date": 1683293497520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,11 @@\n import style from './Top.module.scss'\r\n \r\n export default function Top() {\r\n \treturn (\r\n-\t\t<div className={style. background}>\r\n+\t\t<div className={style.background}>\r\n \t\t\t<div className={style.main}>\r\n+\t\t\t\ta\r\n \t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n \t)\r\n"
+                },
+                {
+                    "date": 1683293503422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.background}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<div className=\"\"></div>\r\n+\t\t\t\t<BetaEnemy />\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683293508474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.background}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<div className={}></div>\r\n+\t\t\t\t<BetaEnemy />\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683293518062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.background}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<div className={style.enem}></div>\r\n+\t\t\t\t<BetaEnemy />\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683293523352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.background}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<div className={style.enemysConte}></div>\r\n+\t\t\t\t<BetaEnemy />\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683293529322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,62 +4,10 @@\n export default function Top() {\r\n \treturn (\r\n \t\t<div className={style.background}>\r\n \t\t\t<div className={style.main}>\r\n-\t\t\t\t<div className={style.enemysConte}></div>\r\n+\t\t\t\t<div className={style.enemysContener}></div>\r\n \t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n \t)\r\n }\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.background}>\r\n-\t\t\t<div className={style.main}>\r\n-\t\t\t\t<div className={style.enem}></div>\r\n-\t\t\t\t<BetaEnemy />\r\n-\t\t\t</div>\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.background}>\r\n-\t\t\t<div className={style.main}>\r\n-\t\t\t\t<div className={}></div>\r\n-\t\t\t\t<BetaEnemy />\r\n-\t\t\t</div>\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.background}>\r\n-\t\t\t<div className={style.main}>\r\n-\t\t\t\t<div className=\"\"></div>\r\n-\t\t\t\t<BetaEnemy />\r\n-\t\t\t</div>\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-import style from './Top.module.scss'\r\n-\r\n-export default function Top() {\r\n-\treturn (\r\n-\t\t<div className={style.background}>\r\n-\t\t\t<div className={style.main}>\r\n-\t\t\t\ta\r\n-\t\t\t\t<BetaEnemy />\r\n-\t\t\t</div>\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n"
+                },
+                {
+                    "date": 1683293536243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,11 @@\n \treturn (\r\n \t\t<div className={style.background}>\r\n \t\t\t<div className={style.main}>\r\n \t\t\t\t<div className={style.enemysContener}>\r\n-\t\t\t\t\t\r\n+\r\n+\t\t\t\t<BetaEnemy />\r\n \t\t\t\t</div>\r\n-\t\t\t\t<BetaEnemy />\r\n \t\t\t</div>\r\n \t\t</div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683300555447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import BetaEnemy from '../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import style from './Top.module.scss'\r\n+\r\n+export default function Top() {\r\n+\treturn (\r\n+\t\t<div className={style.background}>\r\n+\t\t\t<div className={style.main}>\r\n+\t\t\t\t<div></div>\r\n+\t\t\t\t<div className={style.enemysContener}>\r\n+\t\t\t\t\t<BetaEnemy />\r\n+\t\t\t\t</div>\r\n+\t\t\t</div>\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
                 }
             ],
             "date": 1683220547254,

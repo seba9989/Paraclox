@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/main.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1683375137111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683375142497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+import React from 'react'\n+import ReactDOM from 'react-dom/client'\n+import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n+import App from './App.tsx'\n+import './index.scss'\n+import 'mi'\n+\n+import Battle from './components/Game/Battle/Battle.tsx'\n+\n+const router = createBrowserRouter([\n+\t{\n+\t\tpath: '/',\n+\t\telement: <App />,\n+\t\tchildren: [\n+\t\t\t{\n+\t\t\t\tpath: 'game',\n+\t\t\t\telement: <Battle />,\n+\t\t\t},\n+\t\t],\n+\t},\n+])\n+\n+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(\n+\t<React.StrictMode>\n+\t\t<RouterProvider router={router} />\n+\t</React.StrictMode>\n+)\n"
+                },
+                {
+                    "date": 1683375149493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+import React from 'react'\n+import ReactDOM from 'react-dom/client'\n+import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n+import App from './App.tsx'\n+import './index.scss'\n+import 'mixin.scss'\n+\n+import Battle from './components/Game/Battle/Battle.tsx'\n+\n+const router = createBrowserRouter([\n+\t{\n+\t\tpath: '/',\n+\t\telement: <App />,\n+\t\tchildren: [\n+\t\t\t{\n+\t\t\t\tpath: 'game',\n+\t\t\t\telement: <Battle />,\n+\t\t\t},\n+\t\t],\n+\t},\n+])\n+\n+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(\n+\t<React.StrictMode>\n+\t\t<RouterProvider router={router} />\n+\t</React.StrictMode>\n+)\n"
+                },
+                {
+                    "date": 1683375165560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import ReactDOM from 'react-dom/client'\n import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n import App from './App.tsx'\n import './index.scss'\n-import 'mixin.scss'\n+import './mixin.scss'\n \n import Battle from './components/Game/Battle/Battle.tsx'\n \n const router = createBrowserRouter([\n"
+                },
+                {
+                    "date": 1683375192569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import ReactDOM from 'react-dom/client'\n import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n import App from './App.tsx'\n import './index.scss'\n-import './mixin.scss'\n+import './_mixin.scss'\n \n import Battle from './components/Game/Battle/Battle.tsx'\n \n const router = createBrowserRouter([\n"
+                },
+                {
+                    "date": 1683375327369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import ReactDOM from 'react-dom/client'\n import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n import App from './App.tsx'\n import './index.scss'\n-import './_mixin.scss'\n+import './mixin.scss'\n \n import Battle from './components/Game/Battle/Battle.tsx'\n \n const router = createBrowserRouter([\n"
+                },
+                {
+                    "date": 1683375335965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import ReactDOM from 'react-dom/client'\n import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n import App from './App.tsx'\n import './index.scss'\n-import './mixin.scss'\n \n import Battle from './components/Game/Battle/Battle.tsx'\n \n const router = createBrowserRouter([\n@@ -24,58 +23,4 @@\n \t<React.StrictMode>\n \t\t<RouterProvider router={router} />\n \t</React.StrictMode>\n )\n-import React from 'react'\n-import ReactDOM from 'react-dom/client'\n-import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n-import App from './App.tsx'\n-import './index.scss'\n-import 'mi'\n-\n-import Battle from './components/Game/Battle/Battle.tsx'\n-\n-const router = createBrowserRouter([\n-\t{\n-\t\tpath: '/',\n-\t\telement: <App />,\n-\t\tchildren: [\n-\t\t\t{\n-\t\t\t\tpath: 'game',\n-\t\t\t\telement: <Battle />,\n-\t\t\t},\n-\t\t],\n-\t},\n-])\n-\n-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(\n-\t<React.StrictMode>\n-\t\t<RouterProvider router={router} />\n-\t</React.StrictMode>\n-)\n-import React from 'react'\n-import ReactDOM from 'react-dom/client'\n-import { createBrowserRouter, RouterProvider } from 'react-router-dom'\n-import App from './App.tsx'\n-import './index.scss'\n-im\n-\n-import Battle from './components/Game/Battle/Battle.tsx'\n-\n-const router = createBrowserRouter([\n-\t{\n-\t\tpath: '/',\n-\t\telement: <App />,\n-\t\tchildren: [\n-\t\t\t{\n-\t\t\t\tpath: 'game',\n-\t\t\t\telement: <Battle />,\n-\t\t\t},\n-\t\t],\n-\t},\n-])\n-\n-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(\n-\t<React.StrictMode>\n-\t\t<RouterProvider router={router} />\n-\t</React.StrictMode>\n-)\n"
+                }
+            ],
+            "date": 1683375137111,
+            "name": "Commit-0",
+            "content": "import React from 'react'\nimport ReactDOM from 'react-dom/client'\nimport { createBrowserRouter, RouterProvider } from 'react-router-dom'\nimport App from './App.tsx'\nimport './index.scss'\nim\n\nimport Battle from './components/Game/Battle/Battle.tsx'\n\nconst router = createBrowserRouter([\n\t{\n\t\tpath: '/',\n\t\telement: <App />,\n\t\tchildren: [\n\t\t\t{\n\t\t\t\tpath: 'game',\n\t\t\t\telement: <Battle />,\n\t\t\t},\n\t\t],\n\t},\n])\n\nReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(\n\t<React.StrictMode>\n\t\t<RouterProvider router={router} />\n\t</React.StrictMode>\n)\n"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 23,
             "patches": [
                 {
                     "date": 1683219744418,
@@ -16,6 +16,90 @@
                 {
                     "date": 1683219757492,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .main {\r\n \theight: 100%;\r\n-\tdi\r\n+\tdisplay: flex;\r\n+\t\r\n }\r\n"
+                },
+                {
+                    "date": 1683374906104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+.main {\r\n+\theight: 100%;\r\n+\tdisplay: flex;\r\n+\tflex-direction: column;\r\n+\t.\r\n+}\r\n"
+                },
+                {
+                    "date": 1683374912132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n-\t.\r\n-}\r\n-.main {\r\n-\theight: 100%;\r\n-\tdisplay: flex;\r\n \t\r\n+\t.top {\r\n+\t\t\r\n+\t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683374917741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n \t\r\n \t.top {\r\n-\t\t\r\n+\t\tdisplay: ;\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683374922774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+.main {\r\n+\theight: 100%;\r\n+\tdisplay: flex;\r\n+\tflex-direction: column;\r\n+\t\r\n+\t.top {\r\n+\t\tdisplay: grid;\r\n+\t\t\r\n+\t}\r\n+}\r\n"
+                },
+                {
+                    "date": 1683374929222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,7 @@\n \tflex-direction: column;\r\n \t\r\n \t.top {\r\n \t\tdisplay: grid;\r\n-\t\t\r\n+\t\tgrid-template-columns: 50;\r\n \t}\r\n }\r\n-.main {\r\n-\theight: 100%;\r\n-\tdisplay: flex;\r\n-\tflex-direction: column;\r\n-\t\r\n-\t.top {\r\n-\t\tdisplay: ;\r\n-\t}\r\n-}\r\n"
+                },
+                {
+                    "date": 1683374934500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n \tflex-direction: column;\r\n \t\r\n \t.top {\r\n \t\tdisplay: grid;\r\n-\t\tgrid-template-columns: 50;\r\n+\t\tgrid-template-columns: 50% 50%;\r\n+\t\tg\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683374941614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n \t\r\n \t.top {\r\n \t\tdisplay: grid;\r\n \t\tgrid-template-columns: 50% 50%;\r\n-\t\tg\r\n+\t\tgrid-template-rows: 1;\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683374952655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n-\t\r\n+\r\n \t.top {\r\n \t\tdisplay: grid;\r\n \t\tgrid-template-columns: 50% 50%;\r\n-\t\tgrid-template-rows: 1;\r\n+\t\tgrid-template-rows: 100%;\r\n \t}\r\n+\t\r\n }\r\n"
+                },
+                {
+                    "date": 1683374957941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,5 +8,10 @@\n \t\tgrid-template-columns: 50% 50%;\r\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n+\t.bottom {\r\n+        display: grid;\r\n+        grid-template-columns: 50% 50%;\r\n+        grid-template-rows: 100%;\r\n+    }\r\n }\r\n"
+                },
+                {
+                    "date": 1683374966479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n+\t\tbo\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683374971904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n-\t\tbo\r\n+\t\t@\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683374991721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n-\t\t@\r\n+\t\t@include border\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683375000190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n-\t\t@include border\r\n+\t\t@include border()\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683375015552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n-\t\t@include border()\r\n+\t\t@include border(top)\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683375028609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n \t\r\n \t.bottom {\r\n-\t\t@include border(top)\r\n+\t\t@include border(top, #121212)\r\n         display: grid;\r\n         grid-template-columns: 50% 50%;\r\n         grid-template-rows: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1683375041531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+\r\n+\r\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n@@ -7,12 +9,12 @@\n \t\tdisplay: grid;\r\n \t\tgrid-template-columns: 50% 50%;\r\n \t\tgrid-template-rows: 100%;\r\n \t}\r\n-\t\r\n+\r\n \t.bottom {\r\n-\t\t@include border(top, #121212)\r\n-        display: grid;\r\n-        grid-template-columns: 50% 50%;\r\n-        grid-template-rows: 100%;\r\n-    }\r\n+\t\t@include border(top, #121212);\r\n+\t\tdisplay: grid;\r\n+\t\tgrid-template-columns: 50% 50%;\r\n+\t\tgrid-template-rows: 100%;\r\n+\t}\r\n }\r\n"
+                },
+                {
+                    "date": 1683375261047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+@\r\n \r\n-\r\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n"
+                },
+                {
+                    "date": 1683375283221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@\r\n+@use '.'\r\n \r\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683375288617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@use '.'\r\n+@use '../../../'\r\n \r\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n"
+                },
+                {
+                    "date": 1683375298432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@use '../../../mixin' .main {\r\n+@use '../../../mixin'; .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n \tflex-direction: column;\r\n \r\n"
+                },
+                {
+                    "date": 1683375344941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@use '../../../mixin';\r\n+@use '../../../mixin.scss';\r\n \r\n .main {\r\n \theight: 100%;\r\n \tdisplay: flex;\r\n"
                 }
             ],
             "date": 1683219744418,

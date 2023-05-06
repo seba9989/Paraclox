@@ -5,7 +5,7 @@ export default function Header() {
 	return (
 		<div className={style.main}>
 			<NavLink to='/' className={style.logo}>
-				<img src='http:\\192.168.8.173:8080\ParacloxAssets\UI\logos/full.png' alt='' />
+				<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/UI/logos/full.png?raw=true' alt='' />
 			</NavLink>
 
 			<div>

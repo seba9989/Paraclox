@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Header/Header.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1683375633046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1683375633046,
+            "name": "Commit-0",
+            "content": "@import '../../';\r\n\r\n.main {\r\n\t@include border('bottom', #121212);\r\n\theight: 5rem;\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tpadding: 0 0.5rem;\r\n\r\n\t.logo {\r\n\t\theight: 75%;\r\n\t}\r\n\r\n\tdiv {\r\n\t\ta {\r\n\t\t\t@include border('full', #212121);\r\n\t\t\tpadding: 0.5rem 1rem;\r\n\t\t\tmargin: 1rem;\r\n\t\t}\r\n\t}\r\n}\r\n"
+        }
+    ]
+}

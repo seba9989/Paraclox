@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Header/Header.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1683375670186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683375728959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function Header() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<NavLink to='/' className={style.logo}>\r\n-\t\t\t\t<img src='' alt='' />\r\n+\t\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/UI/logos/full.png' alt='' />\r\n \t\t\t</NavLink>\r\n \r\n \t\t\t<div>\r\n \t\t\t\t<NavLink to='/game'>Game</NavLink>\r\n"
+                },
+                {
+                    "date": 1683375750170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function Header() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<NavLink to='/' className={style.logo}>\r\n-\t\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/UI/logos/full.png' alt='' />\r\n+\t\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/UI/logos/full.png?raw=true' alt='' />\r\n \t\t\t</NavLink>\r\n \r\n \t\t\t<div>\r\n \t\t\t\t<NavLink to='/game'>Game</NavLink>\r\n"
+                }
+            ],
+            "date": 1683375670186,
+            "name": "Commit-0",
+            "content": "import { NavLink } from 'react-router-dom'\r\nimport style from './Header.module.scss'\r\n\r\nexport default function Header() {\r\n\treturn (\r\n\t\t<div className={style.main}>\r\n\t\t\t<NavLink to='/' className={style.logo}>\r\n\t\t\t\t<img src='' alt='' />\r\n\t\t\t</NavLink>\r\n\r\n\t\t\t<div>\r\n\t\t\t\t<NavLink to='/game'>Game</NavLink>\r\n\t\t\t\t<NavLink to=''>Test</NavLink>\r\n\t\t\t\t<NavLink to=''>Test</NavLink>\r\n\t\t\t\t<NavLink to=''>Test</NavLink>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t)\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Game/Battle/Buttom/EnemysContener/EnemysContener.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1683303786303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683303791376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-.enemysContener {\r\n+.main {\r\n     display: flex;\r\n     flex-direction: row-reverse;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303935001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .main {\r\n-    display: flex;\r\n-    flex-direction: row-reverse;\r\n-}\n\\ No newline at end of file\n+    \r\n+\tdisplay: flex;\r\n+\tflex-direction: row-reverse;\r\n+}\r\n"
+                },
+                {
+                    "date": 1683303942885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .main {\r\n-    \r\n+    grid-column: ;\r\n \tdisplay: flex;\r\n \tflex-direction: row-reverse;\r\n }\r\n"
+                }
+            ],
+            "date": 1683303786303,
+            "name": "Commit-0",
+            "content": ".enemysContener {\r\n    display: flex;\r\n    flex-direction: row-reverse;\r\n}"
+        }
+    ]
+}

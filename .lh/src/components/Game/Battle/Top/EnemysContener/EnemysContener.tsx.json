@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/components/Game/Battle/Top/EnemysContener/EnemysContener.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1683308074141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683308079815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tstatic\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308098843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tstatic Ba\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308104212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tstatic BattleContext\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308117349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tstatic BattleState\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308137837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tstatic BattleState = \r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308150886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tco BattleState = \r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308161697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\tconst BattleState = Ba\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308255885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener(props: Enemy[]) {\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683308549303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+import { Enemy } from '../../../../../types/interface'\r\n+\r\n+export default function EnemysContener() {\r\n+\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={i} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683308074141,
+            "name": "Commit-0",
+            "content": "import style from './EnemysContener.module.scss'\r\nimport Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\nimport { Enemy } from '../../../../../types/interface'\r\n\r\nexport default function EnemysContener(props: Enemy[]) {\r\n\tsta\r\n\r\n\treturn (\r\n\t\t<div className={style.main}>\r\n\t\t\t<Enemys id={i} />\r\n\t\t\t{/* {opponentsList.map(opponent => {\r\n\t\t\t\tconsole.log(i)\r\n\t\t\t\ti++\r\n\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n\t\t\t})} */}\r\n\t\t</div>\r\n\t)\r\n}\r\n"
+        }
+    ]
+}

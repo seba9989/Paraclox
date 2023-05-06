@@ -1,0 +1,22 @@
+{
+	"EnemyList": [
+		{
+            "id": 0,
+			"name": "BetaEnemy",
+			"attacks": [],
+			"hp": 200
+		},
+		{
+            "id": 1,
+			"name": "BetaEnemy",
+			"attacks": [],
+			"hp": 200
+		},
+		{
+            "id": 2,
+			"name": "BetaEnemy",
+			"attacks": [],
+			"hp": 200
+		}
+	]
+}

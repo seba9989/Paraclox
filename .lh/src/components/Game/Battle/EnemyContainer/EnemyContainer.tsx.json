@@ -1,0 +1,210 @@
+{
+    "sourceFile": "src/components/Game/Battle/EnemyContainer/EnemyContainer.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 48,
+            "patches": [
+                {
+                    "date": 1683376283272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683376293606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import style from \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683376298642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+import style from '../'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683376310665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1683376316836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export \r\n"
+                },
+                {
+                    "date": 1683376325584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default fu\r\n"
+                },
+                {
+                    "date": 1683376331922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default function EnemyContainer() {\r\n+    \r\n+}\r\n"
+                },
+                {
+                    "date": 1683376338820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default function EnemyContainer() {\r\n+    return\r\n+}\r\n"
+                },
+                {
+                    "date": 1683376358160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default function EnemyContainer() {\r\n+    return \r\n+}\r\n"
+                },
+                {
+                    "date": 1683376430943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default function EnemyContainer() {\r\n+    return div.main\r\n+}\r\n"
+                },
+                {
+                    "date": 1683376486220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './EnemyContainer.module.scss'\r\n+\r\n+export default function EnemyContainer() {\r\n+    return <div className={style}>\r\n+\r\n+    </div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683376491940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,39 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n \r\n export default function EnemyContainer() {\r\n-    return <div className={style}>\r\n+    return <div className={style.main}>\r\n \r\n     </div>\r\n }\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export default function EnemyContainer() {\r\n-    return div.main\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export default function EnemyContainer() {\r\n-    return \r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export default function EnemyContainer() {\r\n-    return\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export default function EnemyContainer() {\r\n-    \r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export default fu\r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-export \r\n-import style from './EnemyContainer.module.scss'\r\n-\r\n-\r\n-import style from '../'\n-import style from \n\\ No newline at end of file\n-im\n"
+                },
+                {
+                    "date": 1683377063292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n+import\r\n \r\n export default function EnemyContainer() {\r\n-    return <div className={style.main}>\r\n-\r\n-    </div>\r\n+\treturn <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683377308642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n-import\r\n \r\n+\r\n export default function EnemyContainer() {\r\n \treturn <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683377986569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n+im\r\n \r\n \r\n export default function EnemyContainer() {\r\n \treturn <div className={style.main}></div>\r\n"
+                },
+                {
+                    "date": 1683377995887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378034654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378141685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378154714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import \r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props=/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378166134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import {EnemyList}\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props=/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378171666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import {EnemyList } from\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props=/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378183064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import {EnemyList } from '../../../..'\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props=/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378188195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import {EnemyList } from '../../../../FakeDB/'\r\n+\r\n+\r\n+export default function EnemyContainer() {\r\n+\treturn <div className={style.main}>\r\n+\t\t<Enemy props=/>\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378197000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,82 +1,10 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n-import {EnemyList } from '../../../../FakeDB/'\r\n+import {EnemyList } from '../../../../FakeDB/Tests.json'\r\n \r\n \r\n export default function EnemyContainer() {\r\n \treturn <div className={style.main}>\r\n \t\t<Enemy props=/>\r\n \t</div>\r\n }\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import {EnemyList } from '../../../..'\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t<Enemy props=/>\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import {EnemyList } from\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t<Enemy props=/>\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import {EnemyList}\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t<Enemy props=/>\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import \r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t<Enemy props=/>\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t<Enemy props/>\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t\r\n-\t</div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}></div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-im\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}></div>\r\n-}\r\n"
+                },
+                {
+                    "date": 1683378202690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \r\n \r\n export default function EnemyContainer() {\r\n \treturn <div className={style.main}>\r\n-\t\t<Enemy props=/>\r\n+\t\t\r\n \t</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378208812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n-import {EnemyList } from '../../../../FakeDB/Tests.json'\r\n \r\n \r\n export default function EnemyContainer() {\r\n \treturn <div className={style.main}>\r\n"
+                },
+                {
+                    "date": 1683378262220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+\r\n+export default function EnemyContainer(pro) {\r\n+\treturn <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378271070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+\r\n+export default function EnemyContainer(props: E) {\r\n+\treturn <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378281639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n \r\n-export default function EnemyContainer(props: E) {\r\n+export default function EnemyContainer(props: Ene) {\r\n \treturn <div className={style.main}></div>\r\n }\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-export default function EnemyContainer(pro) {\r\n-\treturn <div className={style.main}></div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-\r\n-export default function EnemyContainer() {\r\n-\treturn <div className={style.main}>\r\n-\t\t\r\n-\t</div>\r\n-}\r\n"
+                },
+                {
+                    "date": 1683378309385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { Enemy } from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: Enemy) {\r\n+\treturn <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378315853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { Enemy } from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: Enemy) {\r\n+\treturn <div className={style.main}></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378325288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n import { Enemy } from '../../../../types/interface'\r\n \r\n-export default function EnemyContainer(props: Enemy) {\r\n+export default function EnemyContainer(props: ) {\r\n \treturn <div className={style.main}></div>\r\n }\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import { Enemy } from '../../../../types/interface'\r\n-\r\n-export default function EnemyContainer(props: Enemy) {\r\n-\treturn <div className={style.main}></div>\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-\r\n-export default function EnemyContainer(props: Ene) {\r\n-\treturn <div className={style.main}></div>\r\n-}\r\n"
+                },
+                {
+                    "date": 1683378405590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n-import { Enemy } from '../../../../types/interface'\r\n \r\n+\r\n export default function EnemyContainer(props: ) {\r\n \treturn <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378419093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n \r\n-\r\n-export default function EnemyContainer(props: ) {\r\n+export default function EnemyContainer(props: E) {\r\n \treturn <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378771953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n \r\n-export default function EnemyContainer(props: E) {\r\n+export default function EnemyContainer(props) {\r\n \treturn <div className={style.main}></div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378788225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,8 @@\n import Enemy from './Enemy/Enemy'\r\n import { EnemyList } from '../../../../types/type'\r\n \r\n export default function EnemyContainer(props) {\r\n-\treturn <div className={style.main}></div>\r\n+\treturn <div className={style.main}>\r\n+\t\t\r\n+\t</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378808361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,11 @@\n import { EnemyList } from '../../../../types/type'\r\n \r\n export default function EnemyContainer(props) {\r\n \treturn <div className={style.main}>\r\n-\t\t\r\n+\t\t{opponentsList.map((opponent) => {\r\n+\t\t\t\t\t\t\tconsole.log(i);\r\n+\t\t\t\t\t\t\ti++;\r\n+\t\t\t\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />;\r\n+\t\t\t\t\t\t})}\r\n \t</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378815185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{pr.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378822393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378891580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,43 +1,9 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n import { EnemyList } from '../../../../types/type'\r\n \r\n-export default function EnemyContainer(props) {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t{opponentsList.map(opponent => {\r\n-\t\t\t\tconsole.log(i)\r\n-\t\t\t\ti++\r\n-\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n-\t\t\t})}\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import { EnemyList } from '../../../../types/type'\r\n-\r\n-export default function EnemyContainer(props) {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t{pr.map(opponent => {\r\n-\t\t\t\tconsole.log(i)\r\n-\t\t\t\ti++\r\n-\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n-\t\t\t})}\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import { EnemyList } from '../../../../types/type'\r\n-\r\n-export default function EnemyContainer(props) {\r\n+export default function EnemyContainer(props: ) {\r\n \treturn <div className={style.main}>\r\n-\t\t{opponentsList.map((opponent) => {\r\n-\t\t\t\t\t\t\tconsole.log(i);\r\n-\t\t\t\t\t\t\ti++;\r\n-\t\t\t\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />;\r\n-\t\t\t\t\t\t})}\r\n+\t\t\r\n \t</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1683378911885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: EnemyList: ) {\r\n+\treturn <div className={style.main}>\r\n+\t\t\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378917582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: ) {\r\n+\treturn <div className={style.main}>\r\n+\t\t\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683378926723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemy}) {\r\n+\treturn <div className={style.main}>\r\n+\t\t\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683379168138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n+\treturn <div className={style.main}>\r\n+\t\t{opponentsList.map((opponent) => {\r\n+\t\t\t\t\t\t\tconsole.log(i);\r\n+\t\t\t\t\t\t\ti++;\r\n+\t\t\t\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />;\r\n+\t\t\t\t\t\t})}\r\n+\t</div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1683379178003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683379183417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(ene => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683379219699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683379226060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t{props.enemyList.map(enemy => {\r\n-\t\t\t\tconsole.log(enemy.)\r\n+\t\t\t\tconsole.log(enemy.id)\r\n \t\t\t})}\r\n \t\t</div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683379239622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { EnemyList } from '../../../../types/type'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: EnemyList }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(enemy.id)\r\n+\t\t\t\tre\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683376283272,
+            "name": "Commit-0",
+            "content": "im"
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1683219474524,
@@ -56,6 +56,10 @@
                 {
                     "date": 1683288766916,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \tbox-sizing: border-box;\n }\n \n .main {\n-\theight: calc(100vh - 5.5rem);\n+\theight: calc(100vh - 5rem);\n }\n \n #root {\n \tbackground: #212121;\n"
+                },
+                {
+                    "date": 1683375449407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800;900&family=Press+Start+2P&display=swap');\n-@use './mixin' * {\n+@use './mixin'; * {\n \tmargin: 0;\n \tfont-family: 'Press Start 2P', sans-serif;\n \tcolor: #fff;\n \ttext-decoration: none;\n"
                 }
             ],
             "date": 1683219474524,

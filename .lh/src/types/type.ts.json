@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/types/type.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1683378366085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683378372404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support';\r\n \r\n export type costType = 'mp' | 'st' | 'hp';\r\n \r\n-e\r\n+export type \r\n"
+                },
+                {
+                    "date": 1683378380036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support';\r\n \r\n export type costType = 'mp' | 'st' | 'hp';\r\n \r\n-export type \r\n+export type EnemyList = \r\n"
+                },
+                {
+                    "date": 1683378387302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support';\r\n \r\n export type costType = 'mp' | 'st' | 'hp';\r\n \r\n-export type EnemyList = \r\n+export type EnemyList = Enemy\r\n"
+                },
+                {
+                    "date": 1683378546031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-export type attackType = 'attack' | 'defense' | 'support';\r\n+import { Enemy } from './interface'\r\n \r\n-export type costType = 'mp' | 'st' | 'hp';\r\n+export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n-export type EnemyList = Enemy\r\n+export type costType = 'mp' | 'st' | 'hp'\r\n"
+                },
+                {
+                    "date": 1683378636010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,6 @@\n \r\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n+\r\n+export type EnemyList = Enemy[]\r\n"
+                }
+            ],
+            "date": 1683378366085,
+            "name": "Commit-0",
+            "content": "export type attackType = 'attack' | 'defense' | 'support';\r\n\r\nexport type costType = 'mp' | 'st' | 'hp';\r\n\r\ne\r\n"
+        }
+    ]
+}

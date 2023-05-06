@@ -1,0 +1,118 @@
+{
+    "sourceFile": "src/components/Game/Battle/Buttom/EnemysContener/EnemysContener.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1683301926151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683301972296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export default function EnemysContener() {\r\n-    \r\n+    return\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683301978305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export default function EnemysContener() {\r\n+    return (\r\n+        \r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683301987270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683301993405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683301999415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from \r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683302193666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemysContener.module.scss'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div ma>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683302199991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemysContener.module.scss'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className=''>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683302205494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './EnemysContener.module.scss'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303834741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import \r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303840182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemy\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303845821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys <frame />\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303856102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303862475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303873820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303879172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+\r\n+export default function EnemysContener() {\r\n+    return (\r\n+        <div className={style.main}>\r\n+            <Enemys />\r\n+        </div>\r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683303885002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+\r\n+export default function EnemysContener() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683304670773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,139 +4,12 @@\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<Enemys />\r\n+            {opponentsList.map((opponent) => {\r\n+\t\t\t\t\t\t\tconsole.log(i);\r\n+\t\t\t\t\t\t\ti++;\r\n+\t\t\t\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />;\r\n+\t\t\t\t\t\t})}\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './EnemysContener.module.scss'\r\n-import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import Enemys from '../../../../../pre-components/enemys'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import Enemys from '../../../../../pre-components/'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import Enemys from '../../../'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import Enemys <frame />\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import Enemy\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-import \r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.main}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className={style.}>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div className=''>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from './EnemysContener.module.scss'\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div ma>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style from \r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-import style\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-\r\n-\r\n-export default function EnemysContener() {\r\n-    return (\r\n-        <div>\r\n-            <Enemys />\r\n-        </div>\r\n-    )\r\n-}\n-export default function EnemysContener() {\r\n-    return (\r\n-        \r\n\\ No newline at end of file\n-    )\r\n-}\n-export default function EnemysContener() {\r\n-    return\r\n-}\n"
+                },
+                {
+                    "date": 1683304696925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<Enemys />\r\n-            {opponentsList.map((opponent) => {\r\n-\t\t\t\t\t\t\tconsole.log(i);\r\n-\t\t\t\t\t\t\ti++;\r\n-\t\t\t\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />;\r\n-\t\t\t\t\t\t})}\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n \t\t</div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683304739106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<Enemys />\r\n+\t\t\t<Enemys  />\r\n \t\t\t{/* {opponentsList.map(opponent => {\r\n \t\t\t\tconsole.log(i)\r\n \t\t\t\ti++\r\n \t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n"
+                },
+                {
+                    "date": 1683304747955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+\r\n+export default function EnemysContener() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id='' />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683304756088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,28 +3,13 @@\n \r\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<Enemys id='' />\r\n+\t\t\t<Enemys id={id: } />\r\n \t\t\t{/* {opponentsList.map(opponent => {\r\n \t\t\t\tconsole.log(i)\r\n \t\t\t\ti++\r\n \t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n \t\t\t})} */}\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './EnemysContener.module.scss'\r\n-import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n-\r\n-export default function EnemysContener() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t<Enemys  />\r\n-\t\t\t{/* {opponentsList.map(opponent => {\r\n-\t\t\t\tconsole.log(i)\r\n-\t\t\t\ti++\r\n-\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n-\t\t\t})} */}\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n"
+                },
+                {
+                    "date": 1683304761246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<Enemys id={id: } />\r\n+\t\t\t<Enemys id={''} />\r\n \t\t\t{/* {opponentsList.map(opponent => {\r\n \t\t\t\tconsole.log(i)\r\n \t\t\t\ti++\r\n \t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n"
+                },
+                {
+                    "date": 1683304781059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import style from './EnemysContener.module.scss'\r\n+import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n+\r\n+export default function EnemysContener() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<Enemys id={} />\r\n+\t\t\t{/* {opponentsList.map(opponent => {\r\n+\t\t\t\tconsole.log(i)\r\n+\t\t\t\ti++\r\n+\t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n+\t\t\t})} */}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683304790454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function EnemysContener() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<Enemys id={i} />\r\n+\t\t\t<Enemys id={ i } />\r\n \t\t\t{/* {opponentsList.map(opponent => {\r\n \t\t\t\tconsole.log(i)\r\n \t\t\t\ti++\r\n \t\t\t\treturn <Opponent id={i - 1} name={opponent.name} key={i - 1} />\r\n"
+                },
+                {
+                    "date": 1683305917731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import style from './EnemysContener.module.scss'\r\n import Enemys from '../../../../../pre-components/enemys/BetaEnemy/BetaEnemy'\r\n \r\n-export default function EnemysContener(props: {enemys: Array<a}) {\r\n+export default function EnemysContener(props: {enemys: Array<any}) {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n \t\t\t<Enemys id={i} />\r\n \t\t\t{/* {opponentsList.map(opponent => {\r\n"
+                }
+            ],
+            "date": 1683301926151,
+            "name": "Commit-0",
+            "content": "export default function EnemysContener() {\r\n    \r\n}"
+        }
+    ]
+}
