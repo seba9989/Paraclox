@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1683378366085,
@@ -52,6 +52,34 @@
                 {
                     "date": 1683392401964,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n-export type costType = 'mp' | 'st' | 'hp'\r\n-\r\n-export type fun\n\\ No newline at end of file\n+export type costType = 'mp' | 'st' | 'hp'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400631224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n-export type costType = 'mp' | 'st' | 'hp'\n\\ No newline at end of file\n+export type costType = 'mp' | 'st' | 'hp'\r\n+\r\n+ex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400643536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-ex\n\\ No newline at end of file\n+export type action\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400653382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-export type action\n\\ No newline at end of file\n+export type changePlayerStats\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400658856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-export type changePlayerStats\n\\ No newline at end of file\n+export type changePlayerStatsAction\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400664508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-export type changePlayerStatsAction\n\\ No newline at end of file\n+export type changePlayerStatsAction = 'hp'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400669671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-export type changePlayerStatsAction = 'hp'\n\\ No newline at end of file\n+export type changePlayerStatsAction = 'hp' | ''\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683400693617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export type attackType = 'attack' | 'defense' | 'support'\r\n \r\n export type costType = 'mp' | 'st' | 'hp'\r\n \r\n-export type changePlayerStatsAction = 'hp' | ''\n\\ No newline at end of file\n+export type changePlayerStatsAction = 'hp' | 'ene'\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1683378366085,

@@ -53,14 +53,50 @@ const GameMachine = createMachine({
 import ChoosesCharacter from './ChoosesCharacter/ChoosesCharacter'
 import BattleScreen from './BattleScreen/BattleScreen'
 
+import PlayerContext from '../../context/playerContext'
+import { useState } from 'react'
+import { Player } from '../../types/interface'
+import { changePlayerStatsAction } from '../../types/type'
+import { PlayerBlueprints } from '../../FakeDB/Tests.json'
+
 export default function Game() {
 	const [currentMachine, send] = useMachine(GameMachine)
+
+	const [playerState, setPayerState] = useState<Player | undefined>()
+
+	const changePlayerStats = (action: changePlayerStatsAction, value: number) => {
+		switch (action) {
+			case 'hp':
+				playerState.hp.current = value
+				setPayerState({ ...playerState })
+				break
+			case 'energy':
+				playerState.energy.current = value
+				setPayerState({ ...playerState })
+				break
+		}
+	}
+
+	const selectCharacter = (name: string) => {
+		const playerModel: Player | undefined = PlayerBlueprints.find(player => player.name === name)
+
+		setPayerState(playerModel)
+	}
+
 	return (
 		<>
-			<GameMachineContext.Provider value={send} >
-				{currentMachine.matches(GameStates.ChoosesCharacter) && <ChoosesCharacter />}
-				{currentMachine.matches(GameStates.BattleScreen) && <BattleScreen />}
-			</GameMachineContext.Provider>
+			<PlayerContext.Provider
+				value={{
+					player: playerState,
+					onChange: (action: changePlayerStatsAction, value: number) => changePlayerStats(action, value),
+				}}>
+				<GameMachineContext.Provider value={send}>
+					{currentMachine.matches(GameStates.ChoosesCharacter) && (
+						<ChoosesCharacter select={(name: string) => selectCharacter(name)} />
+					)}
+					{currentMachine.matches(GameStates.BattleScreen) && <BattleScreen />}
+				</GameMachineContext.Provider>
+			</PlayerContext.Provider>
 		</>
 	)
 }

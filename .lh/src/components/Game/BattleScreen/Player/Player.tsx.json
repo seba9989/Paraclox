@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 14,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1683393496858,
@@ -64,6 +64,26 @@
                 {
                     "date": 1683393659750,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,27 +6,4 @@\n \t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Player() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return <div className={style.main}>\r\n-        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true\" alt=\"\" />\r\n-    </div>\r\n-}\n-import style from './Palyer.module.scss'\r\n-\r\n-export default function Palyer() {\r\n-    return <div className={style.main}>\r\n-        <img src=\"https://github.com/seba9989/paraclox/blob/main/src/assets/characters/idle.gif?raw=true\" alt=\"\" />\r\n-    </div>\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1683464292527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export default function Player() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/mage/idle.gif?raw=true' alt='' />\r\n+\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters//idle.gif?raw=true' alt='' />\r\n \t\t</div>\r\n \t)\r\n }\r\n"
+                },
+                {
+                    "date": 1683464298508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true alt='' />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683464307477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import style from './Player.module.scss'\r\n+\r\n+export default function Player() {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t<img src=`https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true` alt='' />\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683464313225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,26 +2,8 @@\n \r\n export default function Player() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<img src=`https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true` alt='' />\r\n+\t\t\t<img src={https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true} alt='' />\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './Player.module.scss'\r\n-\r\n-export default function Player() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true alt='' />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './Player.module.scss'\r\n-\r\n-export default function Player() {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t<img src='https://github.com/seba9989/paraclox/blob/main/src/assets/characters//idle.gif?raw=true' alt='' />\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n"
+                },
+                {
+                    "date": 1683464332879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export default function Player() {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n-\t\t\t<img src={https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${}/idle.gif?raw=true} alt='' />\r\n+\t\t\t<img src={`https://github.com/seba9989/paraclox/blob/main/src/assets/characters/${'mage'}/idle.gif?raw=true`} alt='' />\r\n \t\t</div>\r\n \t)\r\n }\r\n"
                 }
             ],
             "date": 1683393496858,

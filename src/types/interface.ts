@@ -33,8 +33,8 @@ export interface Player {
 	// }[]
 }
 export interface PlayersContext {
-	player: Player
-	onChange: () => void
+	player: Player | null
+	onChange: (action: Type.changePlayerStatsAction, value: number) => void
 }
 
 // //Multy use interface

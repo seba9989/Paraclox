@@ -2,7 +2,7 @@ import style from './ChoosesCharacter.module.scss'
 import { useContext } from 'react'
 import GameMachineContext from '../../../context/gameMachineContext'
 
-export default function ChoosesCharacter() {
+export default function ChoosesCharacter(props: { select: (name: string) => void }) {
 	const gameMachineContext = useContext(GameMachineContext)
 	console.log(gameMachineContext)
 

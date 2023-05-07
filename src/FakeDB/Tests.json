@@ -18,5 +18,18 @@
 			"attacks": [],
 			"hp": 200
 		}
+	],
+	"PlayerBlueprints": [
+		{
+			"name": "mage",
+			"hp": {
+				"max": 200,
+				"current": 200
+			},
+			"energy": {
+				"max": 100,
+				"current": 100
+			}
+		}
 	]
 }
