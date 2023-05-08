@@ -3,4 +3,4 @@
 
 A następnie `npm run dev`
 
-Jak nie działa zainstaluj node.js i spróbój ponownie.
+Jak nie działa zainstaluj [node.js](https://nodejs.org/en/download) i spróbój ponownie.
