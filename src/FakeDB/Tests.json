@@ -32,7 +32,7 @@
 			}
 		},
 		{
-			"name": "mage",
+			"name": "test0",
 			"hp": {
 				"max": 200,
 				"current": 200
@@ -43,7 +43,7 @@
 			}
 		},
 		{
-			"name": "mage",
+			"name": "test1",
 			"hp": {
 				"max": 200,
 				"current": 200
@@ -54,7 +54,7 @@
 			}
 		},
 		{
-			"name": "mage",
+			"name": "test2",
 			"hp": {
 				"max": 200,
 				"current": 200
@@ -65,7 +65,7 @@
 			}
 		},
 		{
-			"name": "mage",
+			"name": "test3",
 			"hp": {
 				"max": 200,
 				"current": 200
@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"name": "mage",
+			"name": "test4",
 			"hp": {
 				"max": 200,
 				"current": 200

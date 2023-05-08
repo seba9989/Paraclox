@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 40,
+            "activePatchIndex": 61,
             "patches": [
                 {
                     "date": 1683307444267,
@@ -168,6 +168,90 @@
                 {
                     "date": 1683534183478,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,39 @@\n \t\t\t\"energy\": {\r\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n+\t\t},\r\n+\t\t{\r\n+\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"hp\": {\r\n+\t\t\t\t\"max\": 200,\r\n+\t\t\t\t\"current\": 200\r\n+\t\t\t},\r\n+\t\t\t\"energy\": {\r\n+\t\t\t\t\"max\": 100,\r\n+\t\t\t\t\"current\": 100\r\n+\t\t\t}\r\n+\t\t},{\r\n+\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"hp\": {\r\n+\t\t\t\t\"max\": 200,\r\n+\t\t\t\t\"current\": 200\r\n+\t\t\t},\r\n+\t\t\t\"energy\": {\r\n+\t\t\t\t\"max\": 100,\r\n+\t\t\t\t\"current\": 100\r\n+\t\t\t}\r\n+\t\t},{\r\n+\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"hp\": {\r\n+\t\t\t\t\"max\": 200,\r\n+\t\t\t\t\"current\": 200\r\n+\t\t\t},\r\n+\t\t\t\"energy\": {\r\n+\t\t\t\t\"max\": 100,\r\n+\t\t\t\t\"current\": 100\r\n+\t\t\t}\r\n \t\t}\r\n \t],\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1683540820116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,19 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n+\t\t\t\"name\": \"\",\r\n+\t\t\t\"hp\": {\r\n+\t\t\t\t\"max\": 200,\r\n+\t\t\t\t\"current\": 200\r\n+\t\t\t},\r\n+\t\t\t\"energy\": {\r\n+\t\t\t\t\"max\": 100,\r\n+\t\t\t\t\"current\": 100\r\n+\t\t\t}\r\n+\t\t},\r\n+\t\t{\r\n \t\t\t\"name\": \"mage\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n@@ -51,9 +62,10 @@\n \t\t\t\"energy\": {\r\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n-\t\t},{\r\n+\t\t},\r\n+\t\t{\r\n \t\t\t\"name\": \"mage\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n@@ -61,9 +73,10 @@\n \t\t\t\"energy\": {\r\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n-\t\t},{\r\n+\t\t},\r\n+\t\t{\r\n \t\t\t\"name\": \"mage\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n@@ -72,7 +85,6 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t}\r\n-\t],\r\n-\r\n+\t]\r\n }\r\n"
+                },
+                {
+                    "date": 1683540946585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"\",\r\n+\t\t\t\"name\": \"test\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n@@ -42,9 +42,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"name\": \"test2\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683540952188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"test\",\r\n+\t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n@@ -42,9 +42,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"test2\",\r\n+\t\t\t\"name\": \"test1\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683540959937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"name\": \"test2\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683542231691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"name\": \"test\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683542237693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"test\",\r\n+\t\t\t\"name\": \"test3\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n@@ -75,9 +75,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"mage\",\r\n+\t\t\t\"name\": \"test\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683545946680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,8 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n+\t\t//\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n@@ -75,9 +76,9 @@\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n \t\t{\r\n-\t\t\t\"name\": \"test\",\r\n+\t\t\t\"name\": \"test4\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n \t\t\t\t\"current\": 200\r\n \t\t\t},\r\n"
+                },
+                {
+                    "date": 1683545960338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t//\r\n+\t\t//sdas\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546025571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t//sdas\r\n+\t\t\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546031967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t\r\n+\t\t\"\"\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546038254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t\"\"\r\n+\t\t\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546049405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t\r\n+\t\t{}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546055473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{}\r\n+\t\t{\"\"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546070216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"\"}\r\n+\t\t{\"_comment1\"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546078519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\"}\r\n+\t\t{\"_comment1\": 'popraw '}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546089920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": 'popraw '}\r\n+\t\t{\"_comment1\": \"popraw \"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546097215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": \"popraw \"}\r\n+\t\t{\"_comment1\": \"popraw img w \"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546128377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": \"popraw img w \"}\r\n+\t\t{\"_comment1\": \"popraw img w scr\"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546135880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": \"popraw img w scr\"}\r\n+\t\t{\"_comment1\": \"popraw img w ChoosesCharacter.tsx\"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546149000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": \"popraw img w ChoosesCharacter.tsx\"}\r\n+\t\t{\"_comment1\": \"popraw img w: ChoosesCharacter.tsx\"}\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
+                },
+                {
+                    "date": 1683546584110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \t\t\t\t\"max\": 100,\r\n \t\t\t\t\"current\": 100\r\n \t\t\t}\r\n \t\t},\r\n-\t\t{\"_comment1\": \"popraw img w: ChoosesCharacter.tsx\"}\r\n+\t\r\n \t\t{\r\n \t\t\t\"name\": \"test0\",\r\n \t\t\t\"hp\": {\r\n \t\t\t\t\"max\": 200,\r\n"
                 }
             ],
             "date": 1683307444267,

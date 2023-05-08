@@ -62,7 +62,17 @@ import { PlayerBlueprints } from '../../FakeDB/Tests.json'
 export default function Game() {
 	const [currentMachine, send] = useMachine(GameMachine)
 
-	const [playerState, setPayerState] = useState<Player | undefined>()
+	const [playerState, setPayerState] = useState<Player>({
+		name: '',
+		hp: {
+			max: 0,
+			current: 0,
+		},
+		energy: {
+			max: 0,
+			current: 0,
+		},
+	})
 
 	const changePlayerStats = (action: changePlayerStatsAction, value: number) => {
 		switch (action) {
@@ -78,9 +88,10 @@ export default function Game() {
 	}
 
 	const selectCharacter = (name: string) => {
-		const playerModel: Player | undefined = PlayerBlueprints.find(player => player.name === name)
+		const playerModel: any = PlayerBlueprints.find(player => player.name === name)
 
 		setPayerState(playerModel)
+		send('SELECT_CHARACTER')
 	}
 
 	return (

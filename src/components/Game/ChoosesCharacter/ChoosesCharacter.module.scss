@@ -4,10 +4,22 @@
 	height: 100%;
 
 	.characterList {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 		background: gray;
 		height: 100%;
 		min-width: 100px;
 		width: 6%;
+
+		img {
+			width: 75%;
+			opacity: 50%;
+		}
+
+		:checked + label {
+			background: #900;
+		}
 	}
 
 	.characterIMG {
@@ -28,8 +40,8 @@
 		min-width: 480px;
 		width: 25%;
 	}
-	
+
 	.characterDescription {
-		
+		width: 61%;
 	}
 }
