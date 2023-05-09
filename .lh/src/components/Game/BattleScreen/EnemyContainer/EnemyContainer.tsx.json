@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/Game/BattleScreen/EnemyContainer/EnemyContainer.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1683653683491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1683653691228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import { Enemy } from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: Enemy }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(enemy.id)\r\n+\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683653722332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import  { Enemy } from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: Enemy[] }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(enemy.id)\r\n+\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683653729169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n-import  { Enemy } from '../../../../types/interface'\r\n+import Type as { Enemy } from '../../../../types/interface'\r\n \r\n export default function EnemyContainer(props: { enemyList: Enemy[] }) {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n@@ -11,32 +11,4 @@\n \t\t\t})}\r\n \t\t</div>\r\n \t)\r\n }\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import { Enemy } from '../../../../types/interface'\r\n-\r\n-export default function EnemyContainer(props: { enemyList: Enemy }) {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t{props.enemyList.map(enemy => {\r\n-\t\t\t\tconsole.log(enemy.id)\r\n-\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n-\t\t\t})}\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n-import style from './EnemyContainer.module.scss'\r\n-import Enemy from './Enemy/Enemy'\r\n-import { EnemyList } from '../../../../types/type'\r\n-\r\n-export default function EnemyContainer(props: { enemyList: E }) {\r\n-\treturn (\r\n-\t\t<div className={style.main}>\r\n-\t\t\t{props.enemyList.map(enemy => {\r\n-\t\t\t\tconsole.log(enemy.id)\r\n-\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n-\t\t\t})}\r\n-\t\t</div>\r\n-\t)\r\n-}\r\n"
+                },
+                {
+                    "date": 1683653735207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import style from './EnemyContainer.module.scss'\r\n import Enemy from './Enemy/Enemy'\r\n-import Type as { Enemy } from '../../../../types/interface'\r\n+import { Enemy } a from '../../../../types/interface'\r\n \r\n export default function EnemyContainer(props: { enemyList: Enemy[] }) {\r\n \treturn (\r\n \t\t<div className={style.main}>\r\n"
+                },
+                {
+                    "date": 1683653741978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import * as  from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: Enemy[] }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(enemy.id)\r\n+\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                },
+                {
+                    "date": 1683653751707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import style from './EnemyContainer.module.scss'\r\n+import Enemy from './Enemy/Enemy'\r\n+import * as Type from '../../../../types/interface'\r\n+\r\n+export default function EnemyContainer(props: { enemyList: Type }) {\r\n+\treturn (\r\n+\t\t<div className={style.main}>\r\n+\t\t\t{props.enemyList.map(enemy => {\r\n+\t\t\t\tconsole.log(enemy.id)\r\n+\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n+\t\t\t})}\r\n+\t\t</div>\r\n+\t)\r\n+}\r\n"
+                }
+            ],
+            "date": 1683653683491,
+            "name": "Commit-0",
+            "content": "import style from './EnemyContainer.module.scss'\r\nimport Enemy from './Enemy/Enemy'\r\nimport { EnemyList } from '../../../../types/type'\r\n\r\nexport default function EnemyContainer(props: { enemyList: E }) {\r\n\treturn (\r\n\t\t<div className={style.main}>\r\n\t\t\t{props.enemyList.map(enemy => {\r\n\t\t\t\tconsole.log(enemy.id)\r\n\t\t\t\treturn <Enemy key={enemy.id} enemy={enemy} />\r\n\t\t\t})}\r\n\t\t</div>\r\n\t)\r\n}\r\n"
+        }
+    ]
+}

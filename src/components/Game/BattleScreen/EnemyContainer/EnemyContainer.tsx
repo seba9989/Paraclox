@@ -1,8 +1,8 @@
 import style from './EnemyContainer.module.scss'
 import Enemy from './Enemy/Enemy'
-import { EnemyList } from '../../../../types/type'
+import * as Type from '../../../../types/interface'
 
-export default function EnemyContainer(props: { enemyList: EnemyList }) {
+export default function EnemyContainer(props: { enemyList: Type.Enemy[] }) {
 	return (
 		<div className={style.main}>
 			{props.enemyList.map(enemy => {

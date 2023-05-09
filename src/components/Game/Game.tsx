@@ -88,10 +88,14 @@ export default function Game() {
 	}
 
 	const selectCharacter = (name: string) => {
-		const playerModel: any = PlayerBlueprints.find(player => player.name === name)
+		const playerModel: Player | undefined = PlayerBlueprints.find(player => player.name === name)
 
-		setPayerState(playerModel)
-		send('SELECT_CHARACTER')
+		if (typeof playerModel !== 'undefined') {
+			setPayerState(playerModel)
+			send('SELECT_CHARACTER')
+		} else {
+			console.log('Player not found')
+		}
 	}
 
 	return (
